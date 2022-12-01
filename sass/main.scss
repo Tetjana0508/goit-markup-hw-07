@@ -1,5 +1,9 @@
-@import './base/reset';
-@import './components/container';
 @import './utils/vars';
+@import './base/reset';
+@import './base/common';
+
+@import './components/container';
+@import './components/title';
+
 @import './layouts/header';
 @import './layouts/hero';

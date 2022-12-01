@@ -1,19 +1,4 @@
 
-body {
-  font-family: "Roboto", sans-serif;
-  /*background-color: var(--primary-bg-color);*/
-  color: var(--title-text-color);
-}
-
-.site-nav,
-.contacts,
-.features-list,
-.specialty-list,
-.user-list,
-.buttons,
-.filter {
-  list-style: none;
-}
 
 /*---------------------------Верхня лінія------------------------------*/
 
@@ -76,14 +61,6 @@ body {
   padding-bottom: 95px;
 }
 
-.heading {
-  text-align: center;
-  font-size: 36px;
-  line-height: 1.1667;
-  letter-spacing: 0.03em;
-  margin-bottom: 50px;
-  color: var(--primary-text-color);
-}
 
 .specialty-list {
   margin-right: auto;
