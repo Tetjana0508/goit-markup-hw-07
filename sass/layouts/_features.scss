@@ -1,0 +1,43 @@
+.features {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.features .features-title {
+  color: var(--primary-text-color);
+}
+
+.features-item {
+  width: 270px;
+}
+
+.features-title {
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 1.1429;
+  letter-spacing: 0.03em;
+}
+
+.features-list {
+  display: flex;
+  gap: 30px;
+}
+
+.features-list p {
+  font-size: 14px;
+  line-height: 1.7143;
+  letter-spacing: 0.03em;
+  display: flex;
+  gap: 30px;
+}
+
+.features-block {
+  margin-bottom: 30px;
+  width: 270px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--secondary-bg-color);
+  border-radius: 4px;
+}
