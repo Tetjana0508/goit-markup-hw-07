@@ -1,16 +1,16 @@
 
 
-/*---------------------------Верхня лінія------------------------------*/
+/*---------------------------Верхня лінія/Header------------------------------*/
 
 
 
 
-/*---------------------------------Шапка------------------------------*/
+/*---------------------------------Шапка/Hero------------------------------*/
 
 
 
 /*------------------------------Особливості--------------------------*/
-.features {
+/* .features {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -52,12 +52,12 @@
   justify-content: center;
   background-color: var(--secondary-bg-color);
   border-radius: 4px;
-}
+} */
 
 
 
 /*--------------------------------Чим ми займаємося------------------*/
-.specialty {
+/* .specialty {
   padding-bottom: 95px;
 }
 
@@ -71,7 +71,7 @@
 
 .specialty-top-wrap {
   position: relative;
-  /*overflow: hidden;*/
+  overflow: hidden;
 }
 
 .specialty-top-text {
@@ -85,16 +85,13 @@
   color: var(--subject-color);
   width: 370px;
   height: 70px;
-  /*text-align: center;*/
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-
+}*/
 
 /*-----------------------------------Наша команда------------------*/
-.section-user {
+/* .section-user {
   padding-top: 94px;
   padding-bottom: 94px;
   background-color: var(--secondary-bg-color);
@@ -133,7 +130,6 @@
   color: var(--primary-text-color);
 }
 .user-list p {
-  /*margin-bottom: 30px;*/
   font-size: 16px;
   line-height: 1.1875;
   letter-spacing: 0.03em;
@@ -156,7 +152,6 @@
 .user-soc-link {
   width: 100%;
   height: 100%;
-  /*background-color: #2196f3;*/
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -177,12 +172,12 @@
 .user-soc-link:hover .user-soc-icon,
 .user-soc-link:focus .user-soc-icon {
   fill: var(--subject-color);
-}
+} */
 
 
 
 /*------------------------------Постійні клієнти---------------------------*/
-.section-clients {
+/* .section-clients {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -217,13 +212,13 @@
 .clients-link:hover .clients-soc-icon,
 .clients-link:focus .clients-soc-icon {
   fill: var(--accent-color);
-}
+} */
 
 
 
 /*---------------------------------Футер--------------------------------*/
 /* .............Навігація.............. */
-.footer-nav {
+/* .footer-nav {
   padding-top: 60px;
   padding-bottom: 60px;
   display: block;
@@ -286,7 +281,7 @@
 }
 
 /* ..........Соц.мережа.............. */
-.footer-icon-block {
+/* .footer-icon-block {
   display: block;
   align-items: center;
 }
@@ -300,11 +295,6 @@
   margin-bottom: 20px;
 }
 
-/* .footer-icon-block {
-  display: flex;
-  flex-wrap: wrap;
-  width: 206px;
-} */
 
 .footer-soc-icon {
   fill: var(--subject-color);
@@ -330,23 +320,20 @@
 .footer-soc-link:hover .footer-soc-icon,
 .footer-soc-link:focus .footer-soc-icon {
   fill: var(--subject-color);
-}
+} */
 
 
 /* ..........Розсилка.............. */
 
-.footer-newsletter {
-  /* display: fixed;
-  /* align-items: center; */
+/*.footer-newsletter {
   position: relative;
-}
+}*/
 
-.footer-form {
+/* .footer-form {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 12px;
-  /* position: relative; */
 }
 
 .footer-input {
@@ -428,7 +415,7 @@
   font-weight: 700;
   letter-spacing: 0.06em;
   gap: 10px;
-}
+} */
 
 /*--------------------------------Портфоліо------------------------------*/
 /*.........Кнопки........*/
@@ -551,7 +538,7 @@
 
 
 /*--------------------------------Модальне вікно------------------------------*/
-.backdrop {
+/* .backdrop {
   position: fixed;
   top: 0;
   width: 100%;
@@ -777,7 +764,7 @@
   background-repeat: no-repeat;
 } */
 
-.form-button {
+/* .form-button {
   display: flex;
   justify-content: center;
 }
@@ -800,5 +787,5 @@
   color: var(--subject-color);
   cursor: pointer;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
+} */ 
 
