@@ -300,16 +300,18 @@ ul {
 
 /*--------------------------------Чим ми займаємося------------------*/
 /*.......title........*/
-.heading {
+/* .heading {
   text-align: center;
   font-size: 36px;
   line-height: 1.1667;
   letter-spacing: 0.03em;
   margin-bottom: 50px;
   color: var(--primary-text-color);
-}
+} */
+/*.......title........*/
 
-.specialty {
+/*.......specialty........*/
+/* .specialty {
   padding-bottom: 95px;
 }
 
@@ -322,7 +324,6 @@ ul {
 
 .specialty-top-wrap {
   position: relative;
-  /*overflow: hidden;*/
 }
 
 .specialty-top-text {
@@ -336,16 +337,16 @@ ul {
   color: var(--subject-color);
   width: 370px;
   height: 70px;
-  /*text-align: center;*/
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
+} */
+/*.......specialty........*/
 
 
 /*-----------------------------------Наша команда------------------*/
-.section-user {
+/*.......user........*/
+/* .section-user {
   padding-top: 94px;
   padding-bottom: 94px;
   background-color: var(--secondary-bg-color);
@@ -384,7 +385,6 @@ ul {
   color: var(--primary-text-color);
 }
 .user-list p {
-  /*margin-bottom: 30px;*/
   font-size: 16px;
   line-height: 1.1875;
   letter-spacing: 0.03em;
@@ -407,7 +407,6 @@ ul {
 .user-soc-link {
   width: 100%;
   height: 100%;
-  /*background-color: #2196f3;*/
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -428,12 +427,13 @@ ul {
 .user-soc-link:hover .user-soc-icon,
 .user-soc-link:focus .user-soc-icon {
   fill: var(--subject-color);
-}
-
+} */
+/*.......user........*/
 
 
 /*------------------------------Постійні клієнти---------------------------*/
-.section-clients {
+/*.......clients........*/
+/* .section-clients {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -468,13 +468,14 @@ ul {
 .clients-link:hover .clients-soc-icon,
 .clients-link:focus .clients-soc-icon {
   fill: var(--accent-color);
-}
-
+} */
+/*.......clients........*/
 
 
 /*---------------------------------Футер--------------------------------*/
+/*.......footer........*/
 /* .............Навігація.............. */
-.footer-nav {
+/* .footer-nav {
   padding-top: 60px;
   padding-bottom: 60px;
   display: block;
@@ -534,10 +535,10 @@ ul {
 .nav-link:hover,
 .nav-link:focus {
   color: var(--accent-color);
-}
+} */
 
 /* ..........Соц.мережа.............. */
-.footer-icon-block {
+/* .footer-icon-block {
   display: block;
   align-items: center;
 }
@@ -550,12 +551,6 @@ ul {
   color: var(--subject-color);
   margin-bottom: 20px;
 }
-
-/* .footer-icon-block {
-  display: flex;
-  flex-wrap: wrap;
-  width: 206px;
-} */
 
 .footer-soc-icon {
   fill: var(--subject-color);
@@ -581,14 +576,11 @@ ul {
 .footer-soc-link:hover .footer-soc-icon,
 .footer-soc-link:focus .footer-soc-icon {
   fill: var(--subject-color);
-}
-
+} */
 
 /* ..........Розсилка.............. */
 
-.footer-newsletter {
-  /* display: fixed;
-  /* align-items: center; */
+/* .footer-newsletter {
   position: relative;
 }
 
@@ -597,7 +589,6 @@ ul {
   align-items: center;
   justify-content: center;
   gap: 12px;
-  /* position: relative; */
 }
 
 .footer-input {
@@ -679,11 +670,14 @@ ul {
   font-weight: 700;
   letter-spacing: 0.06em;
   gap: 10px;
-}
+} */
+/*.......footer........*/
+
 
 /*--------------------------------Портфоліо------------------------------*/
+/*.......portfolio........*/
 /*.........Кнопки........*/
-.filter-button {
+/* .filter-button {
   padding-top: 94px;
   padding-bottom: 94px;
   background-color: #ffffff;
@@ -723,10 +717,10 @@ ul {
 .button-filters.flowing {
   color: var(--subject-color);
   background-color: var(--accent-color);
-}
+} */
 
-/*.............Картинки...........*/
-.filter {
+/*.............Зображення...........*/
+/* .filter {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -797,12 +791,13 @@ ul {
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.03em;
-}
-
+} */
+/*.......portfolio........*/
 
 
 /*--------------------------------Модальне вікно------------------------------*/
-.backdrop {
+/*.......modal........*/
+/* .backdrop {
   position: fixed;
   top: 0;
   width: 100%;
@@ -1011,22 +1006,6 @@ ul {
   text-decoration: underline;
   color: var(--accent-color);
 }
-/* .check-text::before {
-  content: '';
-  width: 16px;
-  height: 15px;
-  border: 2px solid var(--primary-text-color);
-  border-radius: 2px;
-  margin-right: 7px;
-}
-
-.form-check:checked + .check-text::before {
-  background-color: var(--accent-color);
-  border: none;
-  background-image: url(../images/check.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-} */
 
 .form-button {
   display: flex;
@@ -1051,4 +1030,5 @@ ul {
   color: var(--subject-color);
   cursor: pointer;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
+} */
+/*.......modal........*/

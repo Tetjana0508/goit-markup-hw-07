@@ -1,0 +1,207 @@
+/* .............Навігація.............. */
+.footer-nav {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: block;
+  justify-content: flex-start;
+  background-color: var(--nav-bg-color);
+}
+
+.footer-container {
+  display: flex;
+  gap: 70px;
+}
+
+.footer-nav-block {
+  width: 231px;
+}
+
+.logo .footer,
+.footer {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.footer-nav a {
+  text-decoration: none;
+}
+
+.foorer-logo,
+.addres {
+  color: var(--subject-color);
+}
+
+.nav-link,
+.nav-tel {
+  color: var(--footer-link-color);
+}
+
+.location,
+.email {
+  display: inline-block;
+  margin-bottom: 9px;
+}
+
+.addres,
+.nav-link {
+  font-size: 14px;
+  line-height: 1.7143;
+  letter-spacing: 0.03em;
+  font-style: normal;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.addres:hover,
+.addres:focus {
+  color: var(--accent-color);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-color);
+}
+
+/* ..........Соц.мережа.............. */
+.footer-icon-block {
+  display: block;
+  align-items: center;
+}
+
+.footer-heading {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1428;
+  letter-spacing: 0.03em;
+  color: var(--subject-color);
+  margin-bottom: 20px;
+}
+
+/* .footer-icon-block {
+  display: flex;
+  flex-wrap: wrap;
+  width: 206px;
+} */
+
+.footer-soc-icon {
+  fill: var(--subject-color);
+}
+
+.footer-soc-link {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-soc-link:hover,
+.footer-soc-link:focus {
+  background-color: var(--accent-color);
+}
+
+.footer-soc-link:hover .footer-soc-icon,
+.footer-soc-link:focus .footer-soc-icon {
+  fill: var(--subject-color);
+}
+
+
+/* ..........Розсилка.............. */
+
+.footer-newsletter {
+  /* display: fixed;
+  /* align-items: center; */
+  position: relative;
+}
+
+.footer-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  /* position: relative; */
+}
+
+.footer-input {
+  display: flex;
+  align-items: center;
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: transparent;
+  outline: transparent;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), transform 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  padding-left: 16px;
+}
+
+.footer-input:focus+.footer-label,
+.footer-input:hover+.footer-label,
+.footer-input:not(:placeholder-shown)+.footer-label {
+  transform: translateX(-100%);
+  color: var(--accent-color);
+}
+
+.footer-input:focus,
+.footer-input:hover,
+.footer-input:not(:placeholder-shown) {
+  border-color: var(--accent-color);
+}
+
+.footer-label {
+  position: absolute;
+  left: 0;
+  padding-left: 16px;
+  font-size: 16px;
+  line-height: 1.25;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-form-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-form-link:hover,
+.footer-form-link:focus {
+  background-color: var(--accent-color);
+}
+
+.footer-form-icon {
+  fill: var(--subject-color);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-form-link:hover .footer-form-icon,
+.footer-form-link:focus .footer-form-icon {
+  fill: var(--subject-color);
+}
+
+.footer-button {
+  padding: 10px 28px;
+  display: flex;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  color: var(--subject-color);
+  background-color: var(--accent-color);
+  border-radius: 4px;
+  border: none;
+  box-shadow: transparent;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  gap: 10px;
+}
