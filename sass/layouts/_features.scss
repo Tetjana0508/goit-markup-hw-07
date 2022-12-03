@@ -3,10 +3,6 @@
   padding-bottom: 94px;
 }
 
-.features .features-title {
-  color: var(--primary-text-color);
-}
-
 .features-item {
   width: 270px;
 }
@@ -16,7 +12,14 @@
   font-size: 14px;
   line-height: 1.1429;
   letter-spacing: 0.03em;
+  .features & {
+    color: var(--primary-text-color);
+  }
 }
+
+// .features .features-title {
+//   color: var(--primary-text-color);
+// }
 
 .features-list {
   display: flex;
