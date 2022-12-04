@@ -385,15 +385,17 @@ ul {
   letter-spacing: 0.03em;
   margin-bottom: 16px;
 }
-
-.user-soc-list,
+/*.......user........*/
+/* .user-soc-list,
 .footer-soc-list {
   display: flex;
   justify-content: center;
   gap: 10px;
-}
+} */
+/*.......user........*/
 
-.user-soc-item,
+
+/* .user-soc-item,
 .footer-soc-item {
   width: 44px;
   height: 44px;
@@ -507,8 +509,8 @@ ul {
   color: var(--footer-link-color);  
 }
 
-.location,
-.email {  
+.footer__location,
+.footer__email {  
   display: inline-block;
   margin-bottom: 9px;
 }
