@@ -1,13 +1,13 @@
-.features {
+.features__block {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
-.features-item {
+.features__item {
   width: 270px;
 }
 
-.features-title {
+.features__title {
   margin-bottom: 10px;
   font-size: 14px;
   line-height: 1.1429;
@@ -17,16 +17,12 @@
   }
 }
 
-// .features .features-title {
-//   color: var(--primary-text-color);
-// }
-
-.features-list {
+.features__list {
   display: flex;
   gap: 30px;
 }
 
-.features-list p {
+.features__text {
   font-size: 14px;
   line-height: 1.7143;
   letter-spacing: 0.03em;
@@ -34,7 +30,7 @@
   gap: 30px;
 }
 
-.features-block {
+.features__column {
   margin-bottom: 30px;
   width: 270px;
   height: 120px;
