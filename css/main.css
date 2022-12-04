@@ -46,7 +46,7 @@ body {
 
 .logo,
 .header__nav,
-.contacts,
+.header__contacts,
 .features-list,
 .specialty-list,
 .user-list,
@@ -480,7 +480,7 @@ body {
           justify-content: end;
 }
 
-.contacts {
+.header__contacts {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -489,12 +489,13 @@ body {
           align-items: center;
 }
 
-.contacts .contacts-link {
+.header__contacts-soc .header__contacts-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1429;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
+  fill: var(--title-text-color);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -509,17 +510,12 @@ body {
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.contacts .contacts-link:hover, .contacts .contacts-link:focus {
+.header__contacts-soc .header__contacts-link:hover, .header__contacts-soc .header__contacts-link:focus {
   color: var(--accent-color);
   fill: var(--accent-color);
 }
 
-.header-soc-item,
-.header-soc-block {
-  fill: var(--title-text-color);
-}
-
-.header-soc-icon {
+.header__contacts-icon {
   margin-right: 10px;
 }
 
