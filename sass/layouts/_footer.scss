@@ -1,23 +1,21 @@
 /* .............Навігація.............. */
-.footer-nav {
+.footer {
   padding-top: 60px;
   padding-bottom: 60px;
-  display: block;
-  justify-content: flex-start;
   background-color: var(--nav-bg-color);
 }
 
-.footer-container {
+.footer__container {
   display: flex;
   gap: 70px;
 }
 
-.footer-nav-block {
+.footer__navigation {
   width: 231px;
 }
 
-.logo .footer,
-.footer {
+.logo .footer__link,
+.footer__link {
   display: block;
   margin-bottom: 20px;
 }
