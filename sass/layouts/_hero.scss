@@ -1,4 +1,4 @@
-.hero {
+.hero__container {
   width: 1600px;
   height: 600px;
   margin: 0 auto;
@@ -10,7 +10,7 @@
   background-position: center;
 }
 
-.hero-title {
+.hero__title {
   width: 696px;
   margin: 0 auto;
   font-weight: 900;
@@ -22,7 +22,7 @@
   margin-bottom: 30px;
 }
 
-.hero-button {
+.hero__button {
   min-width: 216px;
   height: 50px;
   display: block;
@@ -46,9 +46,3 @@
       background-color: var(--secondary-bg-color);
     }
 }
-
-// .hero-button:hover,
-// .hero-button:focus {
-//   color: var(--primary-text-color);
-//   background-color: var(--secondary-bg-color);
-// }
