@@ -19,3 +19,8 @@ body {
 .link {
   text-decoration: none;
 }
+
+.header__nav .link,
+.buttons .button {
+  color: var(--primary-text-color);
+}

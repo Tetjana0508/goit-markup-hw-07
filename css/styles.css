@@ -61,6 +61,11 @@ ul {
 .link {
   text-decoration: none;
 } */
+
+/* .header__nav .link,
+.buttons .button {
+  color: var(--primary-text-color);
+} */
 /*.......common........*/
 
 /*.......container........*/
@@ -72,6 +77,9 @@ ul {
 } */
 /*outline: 2px solid red;*/
 /*.......container........*/
+
+
+
 
 /*---------------------------Верхня лінія/Header------------------------------*/
 
@@ -111,11 +119,6 @@ ul {
 
 .header__logo-studio {
   color: var(--logo-color);
-}
-
-.header__nav .link,
-.buttons .button {
-  color: var(--primary-text-color);
 }
 
 .header__nav {

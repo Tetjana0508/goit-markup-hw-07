@@ -60,6 +60,11 @@ body {
   text-decoration: none;
 }
 
+.header__nav .link,
+.buttons .button {
+  color: var(--primary-text-color);
+}
+
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -425,11 +430,6 @@ body {
 
 .header__logo-studio {
   color: var(--logo-color);
-}
-
-.header__nav .link,
-.buttons .button {
-  color: var(--primary-text-color);
 }
 
 .header__nav {
